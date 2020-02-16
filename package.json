@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-mysql-crud-express",
+  "version": "1.0.0",
+  "description": "nodejs-mysql-crud-express with dev and prod enviroment boilerplate",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "start:prod": "NODE_ENV=production nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "vatt sopheak",
+  "license": "ISC"
+}
