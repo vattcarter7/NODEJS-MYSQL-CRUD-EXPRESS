@@ -17,9 +17,9 @@ This is a basic application crud boilerplate that used nodejs with express in th
 - cd to the project directory
 - npm install
 
-# IF YOU WANT TO DEPLOY TO THE SERVER (heroku is recommended)
+# DEPLOY TO THE SERVER - heroku is recommended
 - change the file name 'config.env.env' to config.env
-- modified the environment variables of your own
+- modify the environment variables of your own
 - choose clearDB addons on heroku or Amazon RDS from AWS
 
 # API ENDPOINT 
