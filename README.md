@@ -1,26 +1,26 @@
-# NODEJS MYSQL CRUD EXPRESS
-This is a basic application crud boilerplate that used nodejs with express in the backend, mysql as database.
+## NODEJS MYSQL CRUD EXPRESS
+> This is a basic application crud boilerplate that used nodejs with express in the backend, mysql as database.
 
-# NODE JS
+### NODE JS
 - download nodejs here: https://nodejs.org/
 
-# MYSQL
+### MYSQL
 - https://www.mysql.com/downloads/
 - download MySQL Enterprise Edition (recommend)
 - download MySQL Workbench (if you do not prefer mysql workbench just use one of these : phpmyadmin, sequel pro, or dbschema)
 
-# Commands
+### Commands
 - to init mysql: `mysql -u root -p`
 
-# To use this boilerplate
+### To use this boilerplate
 - please feel free to fork or clone this project
 - cd to the project directory
 - npm install
 
-# DEPLOY TO THE SERVER - heroku is recommended
+### DEPLOY TO THE SERVER - heroku is recommended
 - change the file name 'config.env.env' to config.env
 - modify the environment variables of your own
 - choose clearDB addons on heroku or Amazon RDS from AWS
 
-# API ENDPOINT 
+### API ENDPOINT 
 visit https://documenter.getpostman.com/view/9817532/SzKPX2mA
